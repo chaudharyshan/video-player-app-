@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/home"
+        android:title="Home"
+        app:cnb_backgroundColor="@color/light_prupal"
+        app:cnb_textColor="@color/b1"
+        app:cnb_iconColor="@color/b1"
+         />
+    <item
+        android:id="@+id/searchFragment"
+        android:icon="@drawable/search"
+        android:title="Search"
+        app:cnb_backgroundColor="@color/light_prupal"
+        app:cnb_textColor="@color/b1"
+        app:cnb_iconColor="@color/b1"
+       />
+    <item
+        android:id="@+id/infoFragment"
+        android:icon="@drawable/information"
+        android:title="Info"
+        app:cnb_backgroundColor="@color/light_prupal"
+        app:cnb_textColor="@color/b1"
+        app:cnb_iconColor="@color/b1"
+        />
+</menu>
